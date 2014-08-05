@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int Fib(int N) {
 	if (N <= 1) {
 		return 1;
@@ -20,4 +22,9 @@ long Fib_for(int n) {
 	}
 
 	return sum;
+}
+
+int main() {
+
+    return 0;
 }
